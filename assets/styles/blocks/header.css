@@ -13,6 +13,28 @@
     color: #ffffff;
 }
 
+.header__nav {
+    display: flex;
+    align-items: flex-end;
+}
+
 .header__nav__list {
     display: flex;
+}
+
+.header__nav__item {
+    border-right: 1px solid grey;
+}
+
+.header__nav__item:last-child {
+    border-right-color: transparent;
+}
+
+.header__nav__link {
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #9B7D08;
+    background-color: #F5C506;
 }
