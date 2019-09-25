@@ -1,0 +1,19 @@
+.offer__list {
+    display: flex;
+}
+
+.offer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border-right: 1px solid grey;
+}
+
+.offer__item:first-child {
+    border-left: 1px solid grey;
+}
+
+.offer__item__title {
+    text-transform: uppercase;
+}
