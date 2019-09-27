@@ -1,6 +1,25 @@
 .intro {
+    position: relative;
     display: block;
     background: url('../../images/bg/intro.png') center center / cover no-repeat;
+}
+
+.slider__arrow-left,
+.slider__arrow-right {
+    position: absolute;
+    top: 50%;
+    padding: 20px 10px;
+    background-color: #caa204;
+    outline: none;
+}
+
+.slider__arrow-left {
+    left: 0; 
+}
+
+.slider__arrow-right {
+    right: 0;
+    transform: rotate(180deg);
 }
 
 .slider__row {
