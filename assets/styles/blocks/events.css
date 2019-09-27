@@ -1,3 +1,14 @@
 .events {
     background-image: url('../../images/bg/events.jpg');
 }
+
+.events__days__item__row {
+    display: flex;
+}
+
+.button-upload {
+    width: 20px;
+    height: 20px;
+    background: url('../../images/svg-icons/plus.png') center center / cover no-repeat;
+    outline: none;
+}
