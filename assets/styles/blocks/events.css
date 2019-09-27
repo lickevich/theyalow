@@ -2,8 +2,18 @@
     background-image: url('../../images/bg/events.jpg');
 }
 
+.events__days {
+    padding-top: 20px;
+}
+
 .events__days__item__row {
     display: flex;
+}
+
+.events__days__item__title {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #ffffff;
 }
 
 .button-upload {

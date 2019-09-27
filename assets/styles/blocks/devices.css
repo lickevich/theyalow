@@ -26,3 +26,18 @@
     text-transform: uppercase;
     color: #ffffff;
 }
+
+.devices__row {
+    display: flex;
+}
+
+.devices__list {
+    display: flex;
+    align-items: flex-end;
+}
+
+.devices__info__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
