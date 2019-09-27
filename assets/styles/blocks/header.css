@@ -8,7 +8,11 @@
     align-items: center;
 }
 
-.logo__title {
+.header__logo__wrap {
+    margin-right: 5px;
+}
+
+.header__logo__title {
     font-size: 41px;
     color: #ffffff;
     text-transform: uppercase;
@@ -24,7 +28,7 @@
 }
 
 .header__nav__item {
-    border-right: 1px solid grey;
+    border-right: 1px solid rgba(245, 197, 6, 0.5);
 }
 
 .header__nav__item:last-child {
@@ -32,11 +36,41 @@
 }
 
 .header__nav__link {
-    position: relative;
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F5C506;
+}
+
+.header__nav__item:first-child .header__nav__link {
+    padding-left: 40px;
+}
+
+.header__nav__link::before {
+    content: "";
+    margin-right: 8px;
+}
+
+.header__nav__link--about::before {
+    width: 21px;
+    height: 19px;
+    background: url('../../images/svg-icons/about.png') center center / cover no-repeat;
+}
+
+.header__nav__link--services::before {
+    width: 19px;
+    height: 19px;
+    background: url('../../images/svg-icons/services.png') center center / cover no-repeat;
+}
+
+.header__nav__link--contact::before {
+    width: 24px;
+    height: 18px;
+    background: url('../../images/svg-icons/contact.png') center center / cover no-repeat;
+}
+
+.header__nav__link__text {
     font-size: 17px;
     text-transform: uppercase;
     color: #9B7D08;
-    background-color: #F5C506;
 }

@@ -9,11 +9,11 @@
     justify-content: flex-end;
     flex: 1;
     padding: 40px 0;
-    border-right: 1px solid grey;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .offer__item:first-child {
-    border-left: 1px solid grey;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .offer__item__container {
