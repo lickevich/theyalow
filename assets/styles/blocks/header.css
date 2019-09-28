@@ -1,3 +1,7 @@
+.header {
+    margin-bottom: 55px;
+}
+
 .header__row {
     display: flex;
     justify-content: space-between;
@@ -13,6 +17,8 @@
 }
 
 .header__logo__title {
+    font-family: "Lucida Sans Italic", sans-serif;
+    font-style: italic;
     font-size: 41px;
     color: #ffffff;
     text-transform: uppercase;
@@ -25,6 +31,8 @@
 
 .header__nav__list {
     display: flex;
+    box-shadow: -5px -5px 0px -1px rgba(245, 197, 6, 0.3),
+                -8px -8px 0px -1px rgba(245, 197, 6, 0.2);
 }
 
 .header__nav__item {
@@ -35,11 +43,17 @@
     border-right-color: transparent;
 }
 
+.header__nav__item:hover .header__nav__link {
+    background-color: #e0b004;
+    transition: 0.3s;
+}
+
 .header__nav__link {
     display: flex;
     align-items: center;
     padding: 10px 20px;
     background-color: #F5C506;
+    transition: 0.3s;
 }
 
 .header__nav__item:first-child .header__nav__link {
@@ -70,6 +84,7 @@
 }
 
 .header__nav__link__text {
+    font-family: "Segoe WP", sans-serif;
     font-size: 17px;
     text-transform: uppercase;
     color: #9B7D08;

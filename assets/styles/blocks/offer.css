@@ -28,5 +28,7 @@
 }
 
 .offer__item__name {
+    font-family: "Segoe UI Light", sans-serif;
+    font-size: 27px;
     text-transform: uppercase;
 }

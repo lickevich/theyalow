@@ -34,6 +34,20 @@
 }
 
 @font-face {
+    font-family: "Segoe UI Regular";
+    src: url("../../fonts/woff/asap-regular/asap-regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: url("../../fonts/woff/asap-regular/asap-regular.woff") format("woff");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
     font-family: "PT Sanse Regular";
     src: url("../../fonts/woff/pt-sans/pt-sans-regular.woff") format("woff");
     font-style: normal;
@@ -50,6 +64,13 @@
 @font-face {
     font-family: "Arial MT Regular";
     src: url("../../fonts/woff/pt-sans-norrow/pt-sans-norrow-bold.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("../../fonts/woff/open-sans/open-sans-regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }

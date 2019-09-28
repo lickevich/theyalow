@@ -13,6 +13,8 @@
 }
 
 .footer__logo__title {
+    font-family: "Lucida Sans Italic", sans-serif;
+    font-style: italic;
     font-size: 29px;
     text-transform: uppercase;
     color: #ffffff;

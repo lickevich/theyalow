@@ -3,6 +3,11 @@
     display: block;
     background: url('../../images/bg/intro.png') center center / cover no-repeat;
     padding-top: 30px;
+    box-shadow: inset 0px -17px 14px -22px #000000;
+}
+
+.slider {
+    padding-bottom: 70px;
 }
 
 .slider__arrow-left,
@@ -11,8 +16,9 @@
     top: 50%;
     display: inline-flex;
     padding: 19px 8px;
-    background-color: #caa204;
+    background-color: #F5C506;
     outline: none;
+    transition: 0.3s;
 }
 
 .slider__arrow-left {
@@ -22,6 +28,12 @@
 .slider__arrow-right {
     right: 0;
     transform: rotate(180deg);
+}
+
+.slider__arrow-left:hover,
+.slider__arrow-right:hover {
+    background-color: #e0b004;
+    transition: 0.3s;
 }
 
 .slider__row {
@@ -44,6 +56,7 @@
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
+    font-family: "Asap Regular", sans-serif;
     font-size: 63px;
     color: #ffffff;
 }
