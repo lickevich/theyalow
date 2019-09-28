@@ -1,54 +1,54 @@
 @font-face {
-    font-family: "Lucida Sans Italic", sans-serif;
+    font-family: "Lucida Sans Italic";
     src: url("../../fonts/woff/lucida-sans/lucida-sans-italic.woff") format("woff");
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Segoe WP", sans-serif;
+    font-family: "Segoe WP";
     src: url("../../fonts/woff/segoe-wp/segoe-wp.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Segoe WP Light", sans-serif;
+    font-family: "Segoe WP Light";
     src: url("../../fonts/woff/segoe-wp/segoe-wp-light.woff") format("woff");
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
-    font-family: "Asap Regular", sans-serif;
+    font-family: "Asap Regular";
     src: url("../../fonts/woff/asap-regular/asap-regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Segoe UI Light", sans-serif;
+    font-family: "Segoe UI Light";
     src: url("../../fonts/woff/asap-regular/asap-regular.woff") format("woff");
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
-    font-family: "PT Sanse Regular", sans-serif;
+    font-family: "PT Sanse Regular";
     src: url("../../fonts/woff/pt-sans/pt-sans-regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "PT Sanse Norrow Bold", sans-serif;
+    font-family: "PT Sanse Norrow Bold";
     src: url("../../fonts/woff/pt-sans-norrow/pt-sans-norrow-bold.woff") format("woff");
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "Arial MT Regular", sans-serif;
+    font-family: "Arial MT Regular";
     src: url("../../fonts/woff/pt-sans-norrow/pt-sans-norrow-bold.woff") format("woff");
     font-style: normal;
     font-weight: normal;

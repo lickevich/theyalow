@@ -1,24 +1,75 @@
 .events {
+    padding-top: 32px;
     background-image: url('../../images/bg/events.jpg');
 }
 
-.events__days {
-    padding-top: 20px;
+.events__title {
+    margin-bottom: 32px;
+    font-family: "PT Sanse Regular", sans-serif;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
-.events__days__item__row {
+.events__content {
     display: flex;
 }
 
-.events__days__item__title {
-    margin-bottom: 20px;
-    font-size: 32px;
+.events__discription,
+.events__video-container,
+.events__social {
+    flex: 1;
+}
+
+.events__discription {
+    position: relative;
+    background-color: #ec9e03;
+}
+
+.events__discription__text {
+    padding: 30px 33px 30px 30px;
+    font-family: "Segoe WP Light", sans-serif;
+    font-size: 29px;
+    line-height: 1.31;
+    color: #ffffff;
+}
+
+.events_discriprion__button,
+.events_social__button {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+}
+
+.events__video {
+    width: 100%;
+    height: 100%;
+    padding-right: 25px;
+    object-fit: cover;
+}
+
+.events__social {
+    position: relative;
+    margin-left: 10px;
+    background-color: #ec9e03;
+    background-image: url('../../images/svg-icons/twitter.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.events_social__number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: "Segoe WP Light";
+    font-size: 25px;
     color: #ffffff;
 }
 
 .button-upload {
-    width: 20px;
-    height: 20px;
+    width: 11px;
+    height: 11px;
     background: url('../../images/svg-icons/plus.png') center center / cover no-repeat;
     outline: none;
+    border: 0;
 }

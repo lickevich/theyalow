@@ -50,9 +50,11 @@
                     </header>
                     <div class="slider">
                         <div class="slider__row">
-                            <video class="slider__video" width="550" height="330" poster="./assets/images/content/birds.png">
-                                <source src="#" >
-                            </video>
+                            <div class="slider__video-container">
+                                <video class="slider__video" poster="./assets/images/content/birds.png">
+                                    <source src="#" >
+                                </video>
+                            </div>
                             <h1 class="slider__title">
                                 <span class="slider__title__top">The cool</span>
                                 <span class="slider__title__bottom">The minimal</span>
@@ -93,40 +95,30 @@
             </aside>
             <section class="events">
                 <div class="container">
-                    <div class="events__days">
-                        <ul class="events__days__list">
-                            <li class="events__days__item">
-                                <h3 class="events__days__item__title">Lorem ipsum dolor sit amet</h3>
-                                <div class="events__days__item__content">
-                                    <div class="events__days__item__col">
-                                        <div class="events__days__item__row">
-                                            <div class="events__days__item__action">
-                                                <p class="events__days__item__text">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit, sed do eiusmod tempor incididunt ut
-                                                </p>
-                                                <button class="button-upload"></button>
-                                            </div>    
-                                            <video src="" class="events__days__item__video" width="315" height="230"  poster="./assets/images/content/man.png">
-                                                <source src="#" >
-                                            </video>
-                                            <div class="events__days__item__action">
-                                                <div class="events__days__item__num">22</div>
-                                                <div class="events__days__item__pic">
-                                                    <img src="./assets/images/svg-icons/twitter.png" alt="picture" class="events__days__item__pic__img">
-                                                </div>
-                                                <button class="button-upload"></button>
-                                            </div>
-                                        </div>
-                                        <div class="events__days__item__date-container">
-                                            <div class="events__days__item__date">
-                                                <span class="events__days__item__date__num">25</span>
-                                                <span class="events__days__item__date__mounth">April</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="events__wrap">
+                        <h3 class="events__title">Lorem ipsum dolor sit amet</h3>
+                        <div class="events__content">
+                            <div class="events__discription">
+                                <p class="events__discription__text">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit, sed<br>
+                                    do eiusmod tempor incididunt ut
+                                </p>
+                                <div class="events_discriprion__button">
+                                    <button class="button-upload"></button>
                                 </div>
-                            </li>
-                        </ul>
+                            </div>
+                            <div class="events__video-container">
+                                <video class="events__video" poster="./assets/images/content/man.png">
+                                    <source src="#" >
+                                </video>
+                            </div>
+                            <div class="events__social">
+                                <div class="events_social__button">
+                                    <button class="button-upload"></button>
+                                </div>
+                                <span class="events_social__number">22</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
