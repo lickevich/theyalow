@@ -96,3 +96,36 @@
     font-size: 22px;
     color: #a9a9a7;
 }
+
+@media (max-width: 768px) {
+    .devices {
+        padding: 32px 20px 50px;
+        background: initial;
+        background-color: #4c4c4c;
+    }
+
+    .devices__title {
+        margin-bottom: 35px;
+        font-size: 39px;
+        text-align: initial;
+    }
+
+    .devices__container {
+        margin-bottom: 45px;
+    }
+
+    .devices__announcement {
+        left: 5px;
+    }
+
+    .devices__list {
+        margin-left: initial;
+        margin-right: initial;
+        padding-bottom: initial;
+        padding-left: 30px;
+    }
+
+    .devices__info__list {
+        display: none;
+    }
+}

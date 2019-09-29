@@ -1,3 +1,8 @@
+.offer {
+    position: relative;
+    background-image: url('../../images/bg/offer.png');
+}
+
 .offer__list {
     display: flex;
 }
@@ -31,4 +36,30 @@
     font-family: "Segoe UI Light", sans-serif;
     font-size: 27px;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .offer__item {
+        border-right: initial;
+        padding: 12px 0 30px;
+    }
+
+    .offer__item__picture__img--better {
+        width: 89px;
+        height: 61px;
+    }
+
+    .offer__item__picture__img--customise {
+        width: 67px;
+        height: 69px;
+    }
+
+    .offer__item__picture__img--itsfree {
+        width: 68px;
+        height: 69px;
+    }
+
+    .offer__item__name {
+        font-size: 23px;
+    }
 }

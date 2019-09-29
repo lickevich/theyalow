@@ -156,3 +156,29 @@
 .slider__title__top {
     color: #f5c506;
 }
+
+@media (max-width: 768px) {
+    .intro {
+        box-shadow: initial;
+        padding-top: 0;
+    }
+
+    .slider {
+        padding-bottom: initial;
+    }
+
+    .slider__arrow-left,
+    .slider__arrow-right {
+        display: none;
+    }
+
+    .slider__title {
+        display: none;
+    }
+
+    .slider__video {
+        max-width: initial;
+        max-height: initial;
+        width: 100%;
+    }
+}

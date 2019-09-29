@@ -21,6 +21,10 @@
     display: flex;
 }
 
+.events__container {
+    display: flex;
+}
+
 .events__discription,
 .events__video-container,
 .events__social {
@@ -49,6 +53,7 @@
 
 .events__video-container {
     position: relative;
+    padding-right: 27px;
 }
 
 .events__video__button {
@@ -75,13 +80,18 @@
 }
 
 .events__video {
+    background: transparent url('../../images/content/man.png') center center / cover no-repeat ;
     height: 100%;
-    padding-right: 25px;
+    width: 100%;
+}
+
+.events__social-container {
+    display: none;
 }
 
 .events__social {
     position: relative;
-    margin-left: 10px;
+    margin-left: 8px;
     background-color: #ec9e03;
     background-image: url('../../images/svg-icons/twitter.png');
     background-position: center center;
@@ -95,6 +105,10 @@
     font-family: "Segoe WP Light", sans-serif;
     font-size: 25px;
     color: #ffffff;
+}
+
+.events__massages {
+    display: none;
 }
 
 .button-upload {
@@ -156,4 +170,138 @@
 
 .events__control__range:focus {
     outline: none;
+}
+
+@media (max-width: 768px) {
+    .events {
+        padding: initial;
+        background: initial;
+        background-color: #ffffff;
+        box-shadow: initial;
+    }
+
+    .events__title {
+        display: none;
+    }
+
+    .events__container {
+        margin: 10px;
+    }
+
+    .events__row {
+        flex-direction: column;
+    }
+
+    .events__discription {
+        margin-right: 10px;
+    }
+
+    .events__discription__text {
+        padding: 24px 28px;
+        line-height: 1.15;
+    }
+
+    .events__video-container {
+        padding-right: initial;
+    }
+
+    .events__video {
+        background: transparent url('../../images/content/man2.png') center center / cover no-repeat ;
+        padding-right: initial;
+    }
+
+    .events__social-container {
+        display: flex;
+        background-color: #f5c507;
+    }
+
+    .events__social {
+        background-color: #f5c507;
+        margin-left: initial;
+    }
+
+    .events__social--desktop {
+        display: none;
+    }
+
+    .events__social,
+    .events__massages {
+        flex: 1;
+    }
+
+    .events__massages {
+        display: inline-block;
+    }
+
+    .events__massages__list {
+        margin-top: 25px;
+    }
+
+    .events__massages__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url('../../images/content/massage2.png') center center / auto no-repeat;
+        height: 42px;
+        margin-bottom: 14px;
+    }
+
+    .events__massages__item:first-child {
+        background: url('../../images/content/massage.png') center center / auto no-repeat;
+    }
+
+    .events__massages__item__text {
+        max-width: 225px;
+        font-family: "Arial MT Regular", sans-serif;
+        font-size: 13px;
+        color: #8f8e8e;
+    }
+
+    .events__form {
+        margin-bottom: 12px;
+    }
+
+    .events__form-container {
+        display: flex;
+        justify-content: center;
+        margin-left: 8px;
+    }
+
+    .events__form__input {
+        padding: 5px;
+        border: 1px solid #bc7d00;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-right: 0;
+    }
+
+    .events__form__input:active, 
+    .events__form__input:hover, 
+    .events__form__input:focus {
+        outline: 0;
+        outline-offset: 0;
+    }
+
+    .events__form__button {
+        padding: 5px 17px 5px 14px;
+        color: #ffffff;
+        background-color: #da9917;
+        border: 1px solid #bc7d00;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 0;
+        font-family: "Arial MT Regular", sans-serif;
+        font-size: 15px;
+        transition: 0.3s;
+    }
+
+    .events__form__button:hover {
+        background-color: #bc7d00;
+        transition: 0.3s;
+    }
+
+    .events__date-container,
+    .events__control {
+        display: none;
+    }
 }

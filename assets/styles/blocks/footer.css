@@ -1,15 +1,21 @@
 .footer {
     background-color: #4c4c4c;
+    padding: 5px 0;
 }
 
 .footer__row {
     display: flex;
     align-items: center;
-    padding: 5px 0;
 }
 
 .footer__logo {
+    display: inline-flex;
     margin-right: 5px;
+}
+
+.footer__logo__img {
+    width: 52px;
+    height: 52px;
 }
 
 .footer__logo__title {
@@ -18,4 +24,24 @@
     font-size: 29px;
     text-transform: uppercase;
     color: #ffffff;
+    text-shadow: 2px 1px 1px #000000;
+}
+
+@media (max-width: 768px) {
+    .footer__row {
+        margin-left: 50px;
+    }
+
+    .footer__logo {
+        margin-right: 10px;
+    }
+
+    .footer__logo__img {
+        width: 30.8px;
+        height: 31px;
+    }
+
+    .footer__logo__title {
+        font-size: 16.6px;
+    }
 }

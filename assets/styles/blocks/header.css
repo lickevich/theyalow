@@ -12,6 +12,11 @@
     align-items: center;
 }
 
+.header__logo__img {
+    width: 80px;
+    height: 80px;
+}
+
 .header__logo__wrap {
     margin-right: 5px;
 }
@@ -22,6 +27,7 @@
     font-size: 41px;
     color: #ffffff;
     text-transform: uppercase;
+    text-shadow: 2px 1px 1px #000000;
 }
 
 .header__nav {
@@ -40,7 +46,7 @@
 }
 
 .header__nav__item:last-child {
-    border-right-color: transparent;
+    border-right: 0;
 }
 
 .header__nav__item:hover .header__nav__link {
@@ -88,4 +94,76 @@
     font-size: 17px;
     text-transform: uppercase;
     color: #9B7D08;
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-bottom: 0;
+    }
+
+    .header__logo {
+        background-color: #595959;
+        padding: 9px 20px 9px 12px;
+    }
+
+    .header__logo__wrap {
+        display: inline-flex;
+    }
+
+    .header__logo__title {
+        font-size: 19.3px;
+    }
+
+    .header__logo__img {
+        width: 39.6px;
+        height: 39px;
+    }
+
+    .header__row {
+        justify-content: initial;
+    }
+
+    .header__nav {
+        display: initial;
+        width: 100%;
+    }
+
+    .header__nav__list {
+        height: 100%;
+        box-shadow: initial;
+    }
+
+    .header__nav__item {
+        flex: 1;
+    }
+
+    .header__nav__link {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        padding: initial;
+    }
+
+    .header__nav__item:first-child .header__nav__link {
+        padding-left: initial;
+    }
+
+    .header__nav__link--about::before {
+        width: 24px;
+        height: 22px;
+    }
+
+    .header__nav__link--services::before {
+        width: 22px;
+        height: 22px;
+    }
+
+    .header__nav__link--contact::before {
+        width: 28px;
+        height: 21px; 
+    }
+
+    .header__nav__link__text {
+        font-size: 19px;
+    }
 }
