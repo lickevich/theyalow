@@ -45,16 +45,108 @@
     flex: 1;
 }
 
+.slider__video-container {
+    position: relative;
+}
+
 .slider__video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 549px;
+    max-height: 327px;
+}
+
+.slider__video__player-controls {
+    display: flex;
+    align-items: center;
+}
+
+.slider__video__button,
+.slider__video__player-controls__button {
+    background-image: url('../../images/svg-icons/play.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    outline: none;
+    z-index: 99;
+}
+
+.slider__video__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 67px;
+    height: 67px;
+    background-color: rgba(245, 197, 6, 0.6);
+    background-size: 19px 34px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.slider__video__button:hover {
+    background-color: rgba(245, 197, 6, 0.8);
+    transition: 0.3s;
+}
+
+.slider__video__player-controls {
+    position: absolute;
+    left: 30px;
+    bottom: 23px;
+}
+
+.slider__video__player-controls__button {
+    width: 27px;
+    height: 27px;
+    background-color: rgba(245, 197, 6, 0.6);
+    background-size: 10px 17px;
+    opacity: 0.5;
+    margin-right: 24px;
+    transition: 0.3s;
+}
+
+.slider__video__player-controls__button:hover {
+    background-color: rgba(245, 197, 6, 0.8);
+    transition: 0.3s;
+}
+
+.slider__video__player-controls__playback {
+    -webkit-appearance: none;
+    width: 404px;
+    height: 12px;
+    background-color: rgba(245, 197, 6, 0.3);
+    border-top-right-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    margin-right: 31px;
+}
+
+.slider__video__player-controls__playback::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 179px;
+    height: 12px;
+    background-color: #f5c506;
+}
+
+.slider__video__player-controls__playback:focus {
+    outline: none;
+}
+
+.slider__video__player-controls__volume {
+    width: 15px;
+    height: 15px;
+    background-image: url('../../images/svg-icons/volume.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    outline: none;
+    z-index: 99;
+}
+
+.slider__video__player-controls__volume:hover {
+    transform: scale(1.1);
 }
 
 .slider__title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-transform: uppercase;
     font-family: "Asap Regular", sans-serif;
     font-size: 63px;
